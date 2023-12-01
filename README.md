@@ -1,2 +1,2 @@
 # Opinion-Dynamic-Models
-Various opinion formation and interaction models
+Hegselmann-Krause Dynamics Opinion Model and shiny app
