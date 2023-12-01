@@ -14,7 +14,6 @@ R <- 15 # Number of rounds of the simulation
 N <- 100 # Number of agents
 
 # Function to simulate Hegselmann-Krause dynamics for one round
-# Function to simulate Hegselmann-Krause dynamics for one round
 simulateRound <- function(currentOpinions, ConfidenceInterval, interactionTerm, RightBias) {
   ConfidenceIntervalLeft <- ConfidenceInterval * exp(-RightBias)
   ConfidenceIntervalRight <- ConfidenceInterval * exp(RightBias)
